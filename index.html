@@ -1,1 +1,156 @@
-<h1>Liza moja nareczena hihihihi!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<title>DenysPenkivskyi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="icon" href="./images/favicon.png">
+<script src="https://kit.fontawesome.com/1f47eaa4cf.js" crossorigin="anonymous"></script>
+</head>
+<body class="content" style="max-width:1300px">
+
+<!-- First Grid: Logo & About -->
+<div class="row">
+  <div class="half black container center" style="height:700px">
+    <div class="padding-64">
+      <h1>Denys Penkivskyi</h1>
+    </div>
+    <div class="padding-64">
+      <a href="#about" class="button black block hover-blue-grey padding-16">About Me</a>
+      <a href="#projects" class="button black block hover-teal padding-16">Projects</a>
+      <a href="#resume" class="button black block hover-dark-grey padding-16">Resume</a>
+      <a href="#social" class="button black block hover-brown padding-16">My Social</a>
+      <a href="#contact" class="button black block hover-brown padding-16">Contact</a>
+    </div>
+  </div>
+  <div class="half blue-grey container" style="height:700px" id="about">
+    <div class="padding-64 center">
+      <h1>About Me</h1>
+      <img src="./images/avatar.jpg" class="margin circle" alt="Person" style="width:50%">
+      <div class="left-align padding-large">
+        <p>I am an DevOps Engineer, experienced with Continuous Integration and Continuous Delivery (CI/CD) in Gitlab Pipelines, Bash and Python scripting, Kubernetes, Docker, Linux Servers and Linux distributions (Ubuntu, Debian, Alpine).</p> 
+        <p>Very enterprising and energetic. Well motivated and therefore successfully performs the tasks. Responsible and attentive to the details in the work. I am able to establish contact with people, I work well in a team.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Projects -->
+<div class="row">
+  <div class="half light-grey center" style="min-height:800px" id="projects">
+    <div class="padding-64">
+      <h2>My Projects</h2>
+      <p>Some of my latest projects</p>
+    </div>
+    <div class="row">
+      <div class="half">
+        <a href="" target="_blank"><img src="./images/kubernetes_logo.png" style="width:40%"></a>
+      </div>
+      <div class="half">
+        <a href="" target="_blank"><img src="./images/docker_logo.png" style="width:40%"></a>
+      </div>
+      <div class="half">
+        <a href="" target="_blank"><img src="./images/bash_logo.png" style="width:40%"></a>
+      </div>
+      <div class="half">
+        <a href="" target="_blank"><img src="./images/python_logo.png" style="width:40%"></a>
+      </div>
+      <div class="half">
+        <a href="" target="_blank"><img src="./images/gitlab_logo.png" style="width:40%"></a>
+      </div>
+    </div>
+  </div>
+  <!-- Second Grid: Resume -->
+  <div class="half indigo container" style="min-height:800px" id="resume">
+    <div class="padding-64 center">
+      <h2>Resume</h2>
+      
+      <div class="container responsive">
+        <table class="table">
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr class="white">
+            <td>05.2022-Present</td>
+            <td>DevOpsEngineer</td>
+            <td>Rainbowtours S.A.</td>
+          </tr>
+          <tr>
+            <td>04.2021-04.2022</td>
+            <td>IT Support Engineer</td>
+            <td>Amazon Inc.</td>
+          </tr>
+          <tr class="white">
+            <td>10.2019-04.2021</td>
+            <td>IT Support Technician</td>
+            <td>Amazon Inc.</td>
+          </tr>
+          <tr>
+            <td>01.2019-07.2019</td>
+            <td>Non-commercial software development</td>
+            <td>University of Jan Kochanowski, Kielce, Poland</td>
+          </tr>
+          <tr class="white">
+            <td>10.2015-04.2019</td>
+            <td>Degree in Bachelor of Computer Science</td>
+            <td>University of Jan Kochanowski, Kielce, Poland</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <p><i class="fa-solid fa-download"></i> <a href="" target="_blank">Download CV</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By -->
+<div class="row">
+  <div class="half dark-grey container center" style="height:700px" id="social">
+    <div class="padding-64">
+      <h1>My Social</h1>
+    </div>
+    <div class="padding-64">
+      <p>You can find me in social</p>
+      <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/denyspenkivskyi/" target="_blank">LinkedIn</a></p>
+      <p><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/profile.php?id=100006787986450" target="_blank">Facebook</a></p>
+      <p><i class="fa-brands fa-stack-overflow"></i> <a href="https://stackoverflow.com/users/19600887/jjdenys" target="_blank">Stack Overflow</a></p>
+    </div>
+  </div>
+  <!-- Third Grid: Contact -->
+  <div class="half teal container" style="height:700px" id="contact">
+    <div class="padding-64 padding-large">
+      <h1>Contact</h1>
+      <p class="opacity">CONTACT ME</p>
+      <form class="container card padding-32 white" action="/action_page.php" target="_blank">
+        <div class="section">
+          <label>Name</label>
+          <input class="input" style="width:100%;" type="text" required name="Name">
+        </div>
+        <div class="section">
+          <label>Email</label>
+          <input class="input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="section">
+          <label>Message</label>
+          <input class="input" style="width:100%;" type="text" required name="Message">
+        </div>
+        <button type="submit" class="button teal right">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container black padding-16">
+  <p>Page and personal data created/<a href="https://uodo.gov.pl/pl/p/prawo" target="_blank">can be used ONLY for recruitment purposes</a></p>
+</footer>
+
+</body>
+</html>
